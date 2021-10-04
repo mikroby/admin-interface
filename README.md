@@ -1,1 +1,1 @@
-# admin interface - test / practice
+# admin interface - for testing / practise
