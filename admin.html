@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" id="pageTop">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap-5.1.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/admin.css">
+    <title>Admin Felület</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 id="mainTitle"></h1>
+                <p id="timeStamp"></p>
+                <div class="btn-group additional">
+                    <button class="AdditionalButton-1"></button>
+                    <button class="AdditionalButton-2"></button>
+                    <a class="btn btn-secondary btn-sm" href="#pageBottom" role="button" title="Ugrás a lista aljára">
+                        <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <table class="table table-striped table-sm" id="dataTable">
+                    <thead>
+                        <!--filled by JavaScript -->
+                    </thead>
+                    <tbody>
+                        <!--filled by JavaScript -->
+                    </tbody>
+                </table>
+                <div class="btn-group additional">
+                    <button class="AdditionalButton-1"></button>
+                    <button class="AdditionalButton-2"></button>
+                    <a class="btn btn-secondary btn-sm" href="#pageTop" role="button" title="Ugrás a lista tetejére">
+                        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div>
+                    <p><i>Megjegyzés: Az "id#" cellák nem módosíthatók!</i></p>
+                    <h5 id="pageBottom">&copy; 2021 rtamas</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/admin.js"></script>
+</body>
+
+</html>

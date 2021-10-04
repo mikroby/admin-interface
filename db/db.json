@@ -1,0 +1,72 @@
+{
+  "template": [
+    {
+      "id#": 0,
+      "Vezetéknév": 1,
+      "Keresztnév": 2,
+      "E-mail": 4,
+      "Tulajdon": 3,
+      "Telefon": 5,
+      "Lakcím": 6,
+      "Műveletek": 7,
+      "csop.": 8,
+      "id": 1
+    }
+  ],
+  "owners": [
+    {
+      "Telefon": "+36-20-856-4569",
+      "Lakcím": "Bp. 1117 Kakaó utca 3.",
+      "Keresztnév": "Géza",
+      "Vezetéknév": "Kis",
+      "Tulajdon": "D.102",
+      "E-mail": "kg@gmail.com",
+      "id": 1
+    },
+    {
+      "Tulajdon": "E.303",
+      "Vezetéknév": "Gipsz",
+      "Keresztnév": "Jakab",
+      "E-mail": "gj@gmail.com",
+      "Telefon": "+36-20-126-0236",
+      "Lakcím": "Bp. 1144 Banán út 52.",
+      "id": 2
+    },
+    {
+      "Tulajdon": "C.505",
+      "Vezetéknév": "Nagy",
+      "Keresztnév": "Emil",
+      "E-mail": "ne@gmail.com",
+      "Telefon": "+36-20-204-3446",
+      "Lakcím": "Bp. 1530 Gyík utca 64.",
+      "id": 25
+    },
+    {
+      "Telefon": "+36-20-856-4569",
+      "Lakcím": "Bp. 1117 Kakaó utca 3.",
+      "Keresztnév": "Béla",
+      "Vezetéknév": "Kis",
+      "Tulajdon": "D.102",
+      "E-mail": "rweg@gmail.com",
+      "id": 27
+    },
+    {
+      "Lakcím": "Bp. 1247 Bégető utca 5.",
+      "Tulajdon": "F.234",
+      "Vezetéknév": "Kiss",
+      "E-mail": "kb@gmail.com",
+      "Keresztnév": "Éva",
+      "Telefon": "+36-30-123-3673",
+      "id": 28
+    },
+    {
+      "Telefon": "+36-70-164-4656",
+      "Lakcím": "Bp. 1035 Minta utca 12.",
+      "Keresztnév": "Aranka",
+      "Vezetéknév": "Nyelves",
+      "Tulajdon": "A.805",
+      "E-mail": "nya@gmail.com",
+      "id": 57
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap'); */
+
+@keyframes moveOpacity {
+    from {opacity:0;}
+    to {opacity: 100%}
+}
+
+html{
+    font-family: 'Nunito', sans-serif;    
+    /* font-family: 'Architects Daughter';     */
+    background: url('/img/hatter.bmp');
+    scroll-behavior: smooth;
+    animation: moveOpacity 3s;
+}
+
+h1 {    
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: slategray;
+    margin: 15px;
+}
+
+h5 {
+    text-align: right;
+    font-size: 15px;
+    margin: 0;
+}
+
+.center{
+    text-align: center;
+}
+
+td:hover{
+    background-color: aliceblue;
+}
+/* td:hover:not([headers="id"]){
+    background-color: aliceblue;
+} */
+
+th{
+    font-size: 15px;
+}
+
+div.container{
+    background-color: white;
+    /* background-color: #e7f2f8; */    
+}
+.additional{
+    margin:0px 0 10px 0;
+}
+
+select {
+    width: 100%;
+    border: none;
+    background-color:aliceblue;
+    border-radius: 5px;
+}
+
+table{
+    box-shadow: 0px 1px 5px slategray;
+    border-radius: 5px;
+}
