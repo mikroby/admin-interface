@@ -2,16 +2,18 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap'); */
 
 @keyframes moveOpacity {
-    from {opacity:0;}
-    to {opacity: 100%}
+    0% {opacity:0;}
+    100% {opacity: 100%}
 }
 
 html{
     font-family: 'Nunito', sans-serif;    
     /* font-family: 'Architects Daughter';     */
-    background: url('/img/hatter.bmp');
+    background: url('../img/hatter.bmp');
     scroll-behavior: smooth;
-    animation: moveOpacity 3s;
+}
+body{
+    animation: moveOpacity 2.5s;
 }
 
 h1 {    
@@ -55,7 +57,7 @@ select {
     width: 100%;
     border: none;
     background-color:aliceblue;
-    border-radius: 5px;
+    border-radius: 5px;        
 }
 
 table{
