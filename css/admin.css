@@ -64,3 +64,9 @@ table{
     box-shadow: 0px 1px 5px slategray;
     border-radius: 5px;
 }
+.header--sticky{
+    position: sticky;
+    top:0;
+    z-index: 1;
+    
+}
